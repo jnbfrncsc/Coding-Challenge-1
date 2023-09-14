@@ -153,6 +153,14 @@ main{
   padding-top: 5.8rem;
 }
 
+.attribution{
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+ color: hsl(228, 45%, 44%); 
+}
+
 @media screen and (max-width: 767px){
   header{
     padding-bottom: 20px;
