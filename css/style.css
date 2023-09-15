@@ -4,50 +4,50 @@
 :root {
 /*========== Colors ==========*/
 /*Color mode HSL(hue, saturation, lightness)*/
-	--red: hsl(0, 78%, 62%);
-	--cyan: hsl(180, 62%, 55%);
-	--orange: hsl(34, 97%, 64%);
-	--blue: hsl(212, 86%, 64%);
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
   --dark-gray: hsl(237, 22%, 34%);
-	--very-dark-blue: hsl(234, 12%, 34%);
-	--grayish-blue: hsl(229, 6%, 66%);
-	--very-light-gray: hsl(0, 0%, 98%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
   --white-color: hsl(0, 0%, 100%);
 
 /*========== Font ===========*/
-	--body-font: "Poppins";
+  --body-font: "Poppins";
 
 /*========== Font weight ==========*/
-	--font-regular: 200;
-	--font-medium: 400;
-	--font-semi-bold: 600;
+  --font-regular: 200;
+  --font-medium: 400;
+  --font-semi-bold: 600;
 }
 
 /*========== BASE ==========*/
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html{
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body{
   max-width: 100%;
   background-color: var(--very-light-gray);
-	color: var(--very-dark-blue);
-	font-family: var(--body-font);
+  color: var(--very-dark-blue);
+  font-family: var(--body-font);
 }
 
 ul{
-	list-style-type: none;
+  list-style-type: none;
 }
 
 img{
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 
